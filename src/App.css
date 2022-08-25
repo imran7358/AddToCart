@@ -48,3 +48,5 @@
 .prod-name h3{font-size: 13px;}
 .add-cart{background-color: forestgreen;color: #fff;border-radius: 3px; padding: 5px;border:none}
 .remove-cart{background-color: rgb(187, 7, 7);color: #fff;border-radius: 3px; padding: 5px;border:none}
+.cart-container{background-color: #cdcdcd;height: 100vh;}
+.cart-heading{font-weight: bold;}
