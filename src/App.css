@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.felx-container{display: flex; justify-content: space-around;align-items: flex-start;}
+.prod-list{display: flex; width:80%; flex-flow: wrap;}
+.cart-container{width: 20%;}
+.prod-list-inn{border:1px solid #ccc;border-radius: 3px;margin:10px}
+.prod-list-inn img{width: 200px;height: 150px;}
+.flex-flow{display:flex;}
+.spc-btwn{justify-content: space-between;}
+.prod-name{align-items: center;}
+.prod-name h3{font-size: 13px;}
+.add-cart{background-color: forestgreen;color: #fff;border-radius: 3px; padding: 5px;border:none}
+.remove-cart{background-color: rgb(187, 7, 7);color: #fff;border-radius: 3px; padding: 5px;border:none}
