@@ -34,11 +34,12 @@ const Cart =({state, dispatch})=>{
                       <div className="cart-prod-con">
                       <div className="cart-prod"> 
                       <img src={prod.thumbnail} alt={prod.title}/>
-                      </div>
                       <div className="cart-prod-info">
                       <label>{prod.title}</label>
                       <span>$ {prod.price}</span>
                       </div>
+                      </div>
+                      
                       <div className="qnty-conty">
                       <button onClick={()=> onChangeQty(prod.id, prod.qty - 1)}>-</button>
                       <span>{prod.qty}</span>

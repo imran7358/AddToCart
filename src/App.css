@@ -50,8 +50,12 @@
 .remove-cart{background-color: rgb(187, 7, 7);color: #fff;border-radius: 3px; padding: 5px;border:none;cursor: pointer;}
 .cart-container{background-color: #cdcdcd;height: 100vh;}
 .cart-heading{font-weight: bold;}
-.cart-prod{width: 30%;}
+.cart-prod{width:100%;}
+.cart-prod img{width:60px;}
 .cart-prod-con{border: 1px solid #ababab;border-radius: 3px;padding: 10px;margin-bottom: 10px;}
 .cart-prod-con{justify-content: space-between;}
 .cart-prod-info label{display:block}
-.cart-prod img{width: 100%;}
+.cart-prod-info span{font-weight: bold;}
+.cart-prod{display: flex;gap: 10px;}
+.qnty-conty{display: flex;justify-content: flex-end;gap: 10px;}
+.cart-container p{font-weight: bold;}
