@@ -13,6 +13,12 @@ export const cartReducer =(state, action)=>{
                        
                         cart: state.cart.filter((p)=> p.id !== action.payload.id),
                     };
+
+                    case "CHNAGE_QTY":
+                        return {
+                            ...state,
+                            cart: state.cart.filter((c)=> c.id=== action.payload.id ? c.qty =action.payload.qty : c.qty)
+                        }
     
         default:
             break;

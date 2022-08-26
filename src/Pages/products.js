@@ -13,7 +13,7 @@ const Products =({state, dispatch})=>{
         <img src={prod.thumbnail} alt ={prod.title}/>
         <div className="prod-name flex-flow spc-btwn">
         <h3>{prod?.title}</h3>
-        <span>{prod.price}</span>
+        <span>$ {prod.price}</span>
         </div>
         <div className="btn-container">
             {
@@ -32,7 +32,8 @@ const Products =({state, dispatch})=>{
                             id: prod.id,
                             title: prod.title,
                             thumbnail:prod.thumbnail,
-                            price:prod.price
+                            price:prod.price,
+                            qty:1
                         },
                     })
             }>Add To Cart</button>
